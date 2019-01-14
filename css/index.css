@@ -225,6 +225,16 @@ button {
 	margin: 0 10px;
 }
 
+@media ( max-width: 500px ) {
+    .bottom-content {
+        flex-direction: column;
+    }
+
+    .bottom-content-center {
+        margin: 40px 0;
+    }
+}
+
 footer {
 	width: 92%;
 	margin: 0 auto;
