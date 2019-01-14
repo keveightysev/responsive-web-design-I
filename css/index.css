@@ -251,7 +251,8 @@ footer {
 }
 
 .services-header-img {
-	width: 850px;
+    width: 100%;
+    margin-top: 20px;
 }
 
 h1 {
@@ -266,7 +267,7 @@ h1 {
 .services-cards {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding: 30px 0;
 }
 
@@ -283,7 +284,8 @@ h1 {
 }
 
 .service-facts {
-	display: flex;
+    display: flex;
+    flex-direction: column-reverse;
 	justify-content: space-evenly;
 	border-top: 2px solid black;
 	padding-top: 40px;
@@ -291,7 +293,7 @@ h1 {
 
 .services-info-img {
 	height: 275px;
-	padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 ul {
